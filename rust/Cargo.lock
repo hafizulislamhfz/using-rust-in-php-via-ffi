@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "php_functions"
+name = "rust"
 version = "0.1.0"
