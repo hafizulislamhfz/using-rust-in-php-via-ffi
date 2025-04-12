@@ -26,7 +26,7 @@ This document outlines the steps to integrate Rust functions into PHP using FFI.
 - Go to the rust project:
 
   ```bash
-  cd rust
+  cd using-rust-in-php-via-ffi/rust
   ```
 - Build the Rust project in release mode to generate the `lib` file:
 
