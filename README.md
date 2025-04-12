@@ -17,16 +17,19 @@ This document outlines the steps to integrate Rust functions into PHP using FFI.
 
 ## Step 2. Enable FFI in PHP
 - Ensure that FFI is enabled in your `php.ini`. If it is not enabled, modify the `php.ini`
+
   ```bash
   ffi.enable = true
   ```
 
 ## Step 3. Compile the Rust Project
 - Go to the rust project:
+
   ```bash
   cd rust
   ```
 - Build the Rust project in release mode to generate the `lib` file:
+
   ```bash
   cargo build --release
   ```
@@ -35,10 +38,12 @@ This document outlines the steps to integrate Rust functions into PHP using FFI.
 
 ## Step 4: Run the PHP Test
 - Navigate to the php directory:
+
   ```bash
   cd ../php
   ```
 - Execute the PHP script that uses FFI to call the Rust function:
+
   ```bash
   php test_fibonacci.php
   ```
