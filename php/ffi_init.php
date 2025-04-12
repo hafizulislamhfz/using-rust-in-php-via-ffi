@@ -8,6 +8,8 @@ $ffi = FFI::cdef(
     "./../rust/target/release/librust.dylib"
 );
 
+
+// Function to make it easier to call the r_strlen function from Rust instead of $ffi->r_strlen()
 function r_strlen($str) {
     global $ffi;
     return $ffi->r_strlen($str);
