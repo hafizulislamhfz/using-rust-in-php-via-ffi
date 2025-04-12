@@ -1,5 +1,5 @@
 
-# FFI with Rust and PHP
+# Using Rust in PHP via FFI
 
 This document outlines the steps to integrate Rust functions into PHP using FFI.
 
